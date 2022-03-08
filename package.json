@@ -1,0 +1,38 @@
+{
+  "name": "bin-repacker",
+  "version": "0.1.0",
+  "description": "bin-re-packing algorithms",
+  "author": {
+    "name": "Angelo Polo",
+    "email": "language.devel@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polo-language/bin-repacker.git"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "bin",
+    "knapsack",
+    "pack",
+    "packing",
+    "repack",
+    "sort"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "typescript": "^4.3.4"
+  }
+}
